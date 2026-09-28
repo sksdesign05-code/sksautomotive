@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>SKS Automotive | Sanatan Group - Bus Body Manufacturer on TATA Motors Chassis</title>
+  <!-- Favicon -->
+   <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg" />
+<link rel="shortcut icon" href="img/favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+<link rel="manifest" href="img/favicon/site.webmanifest" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Manrope:wght@500;600;700;800&amp;display=swap" rel="stylesheet" /> -->
+  <!-- Material Symbols Icons -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+
+    .custom-scroll::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    .custom-scroll::-webkit-scrollbar-track {
+      background: #f1f5f9;
+    }
+
+    .custom-scroll::-webkit-scrollbar-thumb {
+      background: #0453cd;
+      border-radius: 2px;
+    }
+
+    .sks-padding {
+      padding: 120px 0px 120px 0px;
+    }
+
+    .sks-padding-top {
+      padding: 120px 0px 0px 0px;
+    }
+
+    .stroke-title {
+      font-size: 3rem;
+      font-family: 'Inter', sans-serif;
+      position: relative;
+      color: #fff;
+      -webkit-text-stroke: 1px #000000;
+      font-weight: 900;
+      line-height: 1;
+      letter-spacing: 0.05em;
+    }
+    .bg-dark-textured {
+      background-color: #0b0c0e;
+      background-image: 
+        radial-gradient(circle at 50% 20%, rgba(35, 38, 43, 0.45), transparent 70%),
+        radial-gradient(circle at 10% 80%, rgba(25, 27, 30, 0.6), transparent 50%),
+        radial-gradient(circle at 90% 70%, rgba(20, 22, 24, 0.6), transparent 50%),
+        url("data:image/svg+xml,%3Csvg viewBox='0 0 800 800' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.15 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    }
+    /* .font-headline, font-heading-lg, font-heading-xl,font-heading-sm {
+            font-weight: 900!important;
+            font-family: 'Inter', sans-serif;
+        } */
+  </style>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            background: "#f9f9f9",
+            "surface-dim": "#dadada",
+            "tertiary-container": "#1b1b1b",
+            "primary-fixed-dim": "#c6c6c6",
+            "surface-tint": "#5e5e5e",
+            "slate-surface": "#F8FAFC",
+            "on-error": "#ffffff",
+            "surface-container": "#eeeeee",
+            secondary: "#5e5e5e",
+            "chrome-metallic": "#94A3B8",
+            "inverse-on-surface": "#f1f1f1",
+            "on-primary-fixed": "#1b1b1b",
+            "on-primary-fixed-variant": "#474747",
+            "secondary-fixed": "#e2e2e2",
+            "subtle-border": "#E2E8F0",
+            "primary-container": "#1b1b1b",
+            "surface-container-high": "#e8e8e8",
+            "surface-variant": "#e2e2e2",
+            "on-tertiary": "#ffffff",
+            "on-tertiary-fixed": "#1b1b1b",
+            "on-secondary-fixed": "#1b1b1b",
+            error: "#ba1a1a",
+            "on-tertiary-fixed-variant": "#474747",
+            "inverse-surface": "#303030",
+            outline: "#7e7576",
+            "inverse-primary": "#c6c6c6",
+            "on-primary": "#ffffff",
+            "tertiary-fixed-dim": "#c6c6c6",
+            "on-surface": "#1b1b1b",
+            "on-surface-variant": "#4c4546",
+            "black": "#0e1012",
+            "error-container": "#ffdad6",
+            "secondary-container": "#e2e2e2",
+            "on-error-container": "#93000a",
+            "on-primary-container": "#848484",
+            primary: "#000000",
+            "on-secondary-container": "#646464",
+            surface: "#f9f9f9",
+            "secondary-fixed-dim": "#c6c6c6",
+            "on-background": "#1b1b1b",
+            tertiary: "#000000",
+            "outline-variant": "#cfc4c5",
+            "surface-container-lowest": "#ffffff",
+            "primary-fixed": "#e2e2e2",
+            "surface-container-highest": "#e2e2e2",
+            "surface-container-low": "#f3f3f3",
+            "tertiary-fixed": "#e2e2e2",
+            "on-secondary": "#ffffff",
+            "on-secondary-fixed-variant": "#474747",
+            "on-tertiary-container": "#848484",
+            "surface-bright": "#f9f9f9"
+          },
+          borderRadius: {
+            DEFAULT: "1rem",
+            lg: "2rem",
+            xl: "3rem",
+            full: "9999px"
+          },
+          spacing: {
+            "space-md": "1rem",
+            "space-xs": "0.25rem",
+            "space-sm": "0.5rem",
+            gutter: "1.5rem",
+            "margin-mobile": "1rem",
+            margin: "2rem",
+            "gutter-mobile": "1rem",
+            "space-xl": "2.5rem",
+            "space-lg": "1.5rem"
+          },
+          fontFamily: {
+            "display-hero": ["Inter"],
+            "body-sm": ["Inter"],
+            "headline-lg": ["Inter"],
+            "label-sm": ["Inter"],
+            "label-lg": ["Inter"],
+            "headline-xl-mobile": ["Inter"],
+            "headline-sm": ["Inter"],
+            "body-md": ["Inter"],
+            "headline-xl": ["Inter"],
+            "headline-md": ["Inter"],
+            "body-xl": ["Inter"],
+            "display-hero-mobile": ["Inter"],
+            "label-md": ["Inter"],
+            "body-lg": ["Inter"],
+            headline: ["Inter"],
+            display: ["Inter"],
+            body: ["Inter"],
+            label: ["Inter"]
+          },
+          fontSize: {
+            "display-hero": ["56px", {
+              lineHeight: "64px",
+              letterSpacing: "-0.03em",
+              fontWeight: "800"
+            }],
+            "body-sm": ["12px", {
+              lineHeight: "18px",
+              fontWeight: "400"
+            }],
+            "headline-lg": ["32px", {
+              lineHeight: "40px",
+              letterSpacing: "-0.015em",
+              fontWeight: "700"
+            }],
+            "label-sm": ["10px", {
+              lineHeight: "14px",
+              letterSpacing: "0.08em",
+              fontWeight: "700"
+            }],
+            "label-lg": ["14px", {
+              lineHeight: "20px",
+              letterSpacing: "0.05em",
+              fontWeight: "600"
+            }],
+            "headline-xl-mobile": ["28px", {
+              lineHeight: "36px",
+              letterSpacing: "-0.01em",
+              fontWeight: "700"
+            }],
+            "headline-sm": ["20px", {
+              lineHeight: "28px",
+              fontWeight: "600"
+            }],
+            "body-md": ["14px", {
+              lineHeight: "22px",
+              fontWeight: "400"
+            }],
+            "headline-xl": ["40px", {
+              lineHeight: "48px",
+              letterSpacing: "-0.02em",
+              fontWeight: "700"
+            }],
+            "headline-md": ["24px", {
+              lineHeight: "32px",
+              letterSpacing: "-0.01em",
+              fontWeight: "600"
+            }],
+            "body-xl": ["18px", {
+              lineHeight: "28px",
+              fontWeight: "400"
+            }],
+            "display-hero-mobile": ["36px", {
+              lineHeight: "44px",
+              letterSpacing: "-0.02em",
+              fontWeight: "800"
+            }],
+            "label-md": ["12px", {
+              lineHeight: "16px",
+              letterSpacing: "0.06em",
+              fontWeight: "600"
+            }],
+            "body-lg": ["16px", {
+              lineHeight: "26px",
+              fontWeight: "400"
+            }]
+          }
+        }
+      }
+    };
+  </script>
+
+  <style data-purpose="accordion-transitions">
+    /* Smooth CSS Grid accordion expansion */
+    .accordion-content {
+      display: grid;
+      grid-template-rows: 0fr;
+      transition: grid-template-rows 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .accordion-content.is-open {
+      grid-template-rows: 1fr;
+    }
+
+    .accordion-inner {
+      overflow: hidden;
+    }
+
+    /* Icon rotation for toggle state */
+    .accordion-icon {
+      transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .accordion-icon.is-open {
+      transform: rotate(45deg);
+    }
+  </style>
+</head>
+
+<body class="bg-background text-on-surface font-body-md antialiased selection:bg-secondary selection:text-white">
+  <!-- Top Utilities Strip -->
+  <header class="bg-black text-chrome-metallic border-b border-subtle-border/20 text-xs hidden md:block">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 py-2 flex justify-between items-center">
+      <div class="flex items-center space-x-5">
+        <a class="flex items-center gap-1.5 hover:text-surface-container-lowest transition-colors font-label-sm tracking-normal"
+          href="mailto:sales.skssanatan@gmail.com">
+          <span class="material-symbols-outlined text-sm text-secondary-fixed" data-icon="mail">mail</span>
+          sales.skssanatan@gmail.com
+        </a>
+        <span class="text-chrome-metallic/60">|</span>
+        <a class="flex items-center gap-1.5 hover:text-surface-container-lowest transition-colors font-label-sm tracking-normal"
+          href="mailto:skscompany15@gmail.com">
+          <span class="material-symbols-outlined text-sm text-secondary-fixed" data-icon="mail">mail</span>
+          skscompany15@gmail.com
+        </a>
+
+      </div>
+      <div class="flex items-center space-x-3">
+        <a class="flex items-center gap-1.5 hover:text-surface-container-lowest transition-colors font-label-sm tracking-normal"
+          href="tel:+919201837575">
+          <span class="material-symbols-outlined text-sm text-secondary-fixed" data-icon="call">call</span>
+          +91 92018 37575
+          <!-- <span class="text-chrome-metallic/60">|</span> -->
+          <a class="flex items-center gap-1.5 hover:text-surface-container-lowest transition-colors font-label-sm tracking-normal"
+            href="tel:+919243561550">
+            <span class="material-symbols-outlined text-sm text-secondary-fixed" data-icon="call">call</span>
+            +91 92435 61550
+          </a>
+          <!-- <span class="inline-flex items-center gap-1.5 text-surface-container-lowest font-medium">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          Authorized Bus Body Manufacturer on TATA Motors Chassis
+        </span>
+        <span class="text-chrome-metallic/60">|</span>
+        <span class="flex items-center gap-1 hover:text-surface-container-lowest transition-colors">
+          <span class="material-symbols-outlined text-sm" data-icon="verified">verified</span>
+          AIS-052 &amp; ARAI Certified
+        </span>
+        <span class="text-chrome-metallic/60">|</span>
+        <span class="text-chrome-metallic">Indore Works (Village Jakhya, MP)</span> -->
+      </div>
+
+    </div>
+  </header>
+  <!-- TopNavBar (Shared Component) -->
+  <nav class="sticky top-0 z-50 bg-surface-container-lowest dark:bg-black shadow-[0_1px_3px_0_rgba(11,25,44,0.04)]">
+    <div class="flex justify-between items-center w-full px-6 lg:px-8 max-w-7xl mx-auto h-20">
+      <!-- Brand Logo -->
+      <a class="flex items-center gap-3 group" href="#">
+        <div
+          class="w-10 h-10 rounded-xl flex items-center justify-center text-white font-heading font-black text-xl transition-transform">
+          <img src="img/sks-logo.png">
+        </div>
+        <div class="flex flex-col">
+          <span class="font-heading font-black text-2xl tracking-tight flex items-center text-[#000]">
+            SKS Automotive<span class="text-[#C1C7CD]">.</span>
+          </span>
+          <span class="text-[10px] uppercase tracking-widest text-zinc-400 font-semibold -mt-1">SANATAN GROUP</span>
+        </div>
+      </a>
+      <!-- Desktop Nav Links -->
+      <div class="hidden lg:flex items-center space-x-8">
+        <a class="border-b-2 border-secondary text-secondary dark:text-secondary-fixed font-semibold pb-1 text-label-lg font-label-lg"
+          href="#">Home</a>
+        <a class="text-on-surface-variant dark:text-chrome-metallic font-medium transition-colors hover:text-secondary dark:hover:text-secondary-fixed text-label-lg font-label-lg"
+          href="#">About Us</a>
+        <a class="text-on-surface-variant dark:text-chrome-metallic font-medium transition-colors hover:text-secondary dark:hover:text-secondary-fixed text-label-lg font-label-lg"
+          href="#">Product Facilities</a>
+        <a class="text-on-surface-variant dark:text-chrome-metallic font-medium transition-colors hover:text-secondary dark:hover:text-secondary-fixed text-label-lg font-label-lg"
+          href="#">Products</a>
+        <!-- <a class="text-on-surface-variant dark:text-chrome-metallic font-medium transition-colors hover:text-secondary dark:hover:text-secondary-fixed text-label-lg font-label-lg"
+          href="#leadership">Leadership</a> -->
+        <a class="text-on-surface-variant dark:text-chrome-metallic font-medium transition-colors hover:text-secondary dark:hover:text-secondary-fixed text-label-lg font-label-lg"
+          href="#">Faq</a>
+        <a class="text-on-surface-variant dark:text-chrome-metallic font-medium transition-colors hover:text-secondary dark:hover:text-secondary-fixed text-label-lg font-label-lg"
+          href="#">Contact Us</a>
+      </div>
+      <!-- Trailing Action -->
+      <div class="hidden sm:flex items-center space-x-3">
+        <a class="px-5 py-2.5 bg-black hover:bg-slate-800 text-surface-container-lowest text-label-md font-label-md uppercase tracking-wider rounded-lg border border-primary-container transition-all active:scale-[0.99] flex items-center gap-2 shadow-sm"
+          href="#rfq-section">
+          <span>Request RFQ</span>
+          <span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+        </a>
+        <a class="p-2.5 text-on-surface-variant hover:text-secondary rounded-lg border border-subtle-border hover:bg-slate-surface transition-colors"
+          href="#contact" title="Contact Sales">
+          <span class="material-symbols-outlined" data-icon="call">call</span>
+        </a>
+      </div>
+      <!-- Mobile Menu Button -->
+      <button aria-label="Toggle navigation"
+        class="lg:hidden p-2 text-on-surface hover:text-secondary focus:outline-none" id="mobileMenuBtn">
+        <span class="material-symbols-outlined text-2xl" data-icon="menu">menu</span>
+      </button>
+    </div>
+    <!-- Mobile Navigation Dropdown -->
+    <div class="hidden lg:hidden bg-surface-container-lowest border-b border-subtle-border px-6 py-4 space-y-3"
+      id="mobileMenu">
+      <a class="block text-secondary font-semibold text-label-lg py-1" href="#home">Home</a>
+      <a class="block text-on-surface-variant hover:text-secondary text-label-lg py-1" href="#about">About Us</a>
+      <a class="block text-on-surface-variant hover:text-secondary text-label-lg py-1" href="#portfolio">Product
+        Portfolio</a>
+      <a class="block text-on-surface-variant hover:text-secondary text-label-lg py-1"
+        href="#infrastructure">Infrastructure</a>
+      <a class="block text-on-surface-variant hover:text-secondary text-label-lg py-1" href="#leadership">Leadership</a>
+      <a class="block text-on-surface-variant hover:text-secondary text-label-lg py-1"
+        href="#certifications">Certifications</a>
+      <div class="pt-3 border-t border-subtle-border flex flex-col gap-2">
+        <a class="w-full text-center py-2.5 bg-black text-white rounded-lg font-label-md" href="#rfq-section">Request
+          RFQ</a>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+<section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-chassis-dark text-surface-container-lowest py-20 px-6 lg:px-8 border-b border-subtle-border/20">
+    <!-- Background Technical Grid Overlay -->
+    <div class="absolute inset-0 bg-[radial-gradient(#1e293b_1px,transparent_1px)] [background-size:24px_24px] opacity-25 pointer-events-none"></div>
+    <div class="absolute -left-48 -bottom-48 w-96 h-96 bg-secondary/15 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -right-48 -top-48 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+    
+    <div class="relative max-w-3xl mx-auto text-center space-y-8 z-10">
+        <!-- Status Badge -->
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-container-high/60 border border-subtle-border/20 text-chrome-metallic text-body-sm font-medium tracking-wide backdrop-blur-md">
+            <span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+            Under Precision Development
+        </div>
+        
+        <!-- Headline -->
+        <h1 class="text-headline-xl sm:text-display-hero font-display-hero font-extrabold tracking-tight text-black leading-tight">
+            This Route is <span class="text-black">Under Construction.</span><br>
+            <span class="text-black">Coming Soon.</span>
+        </h1>
+        
+        <!-- Description -->
+        <p class="text-body-lg text-black max-w-xl mx-auto leading-relaxed">
+            We are currently engineering this section to bring you comprehensive technical specifications, blueprints, and certified fleet data for SKS Automotive. 
+        </p>
+        
+        <!-- Action CTAs -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+            <a href="index.html" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 rounded-lg bg-secondary text-white font-medium hover:bg-secondary/95 transition-all shadow-lg shadow-secondary/20">
+                Return to Homepage
+            </a>
+            <a href="index.html#contact" class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-3.5 rounded-lg bg-surface-container-high text-secondary font-medium border border-subtle-border/30 hover:bg-surface-container-highest transition-all">
+                Contact Fleet Sales
+            </a>
+        </div>
+        
+        <!-- Quick Navigation Links -->
+        <div class="pt-8 border-t border-subtle-border/10 text-body-sm text-chrome-metallic/70">
+            Looking for something specific? Explore our <a href="ambulances.html" class="text-secondary hover:underline">Specialty Ambulances</a> or <a href="buses.html" class="text-secondary hover:underline">Passenger Coaches</a>.
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  <!-- Footer (Shared Component) -->
+  <footer class="text-on-primary border-t border-primary-container bg-dark-textured bg-black" id="contact">
+    <div class="max-w-7xl mx-auto  pt-16 px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+        <!-- Credential 1 -->
+        <div
+          class="flex items-center gap-4 p-4 rounded-lg bg-surface-container-lowest border border-subtle-border shadow-sm" data-aos="fade-up" data-aos-duration="900">
+          <div
+            class="w-12 h-12 rounded bg-amber-50 border border-amber-200 flex items-center justify-center text-amber-700">
+            <span class="material-symbols-outlined text-2xl" data-icon="verified_user">verified_user</span>
+          </div>
+          <div>
+            <div class="text-label-md font-bold text-on-surface">ARAI Certified Body Builder</div>
+            <div class="text-body-sm text-on-surface-variant">Full compliance with AIS-052 Rev. 1 &amp; AIS-063</div>
+          </div>
+        </div>
+        <!-- Credential 2 -->
+        <div
+          class="flex items-center gap-4 p-4 rounded-lg bg-surface-container-lowest border border-subtle-border shadow-sm" data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+          <div
+            class="w-12 h-12 rounded bg-black-50 border border-black-200 flex items-center justify-center text-secondary">
+            <span class="material-symbols-outlined text-2xl" data-icon="workspace_premium">workspace_premium</span>
+          </div>
+          <div>
+            <div class="text-label-md font-bold text-on-surface">ISO 9001:2015 Accredited</div>
+            <div class="text-body-sm text-on-surface-variant">Standardized QMS automotive assembly protocols</div>
+          </div>
+        </div>
+        <!-- Credential 3 -->
+        <div
+          class="flex items-center gap-4 p-4 rounded-lg bg-surface-container-lowest border border-subtle-border shadow-sm" data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
+          <div
+            class="w-12 h-12 rounded bg-slate-100 border border-slate-300 flex items-center justify-center text-slate-800">
+            <span class="material-symbols-outlined text-2xl" data-icon="corporate_fare">corporate_fare</span>
+          </div>
+          <div>
+            <div class="text-label-md font-bold text-on-surface">MSME Udyam Registered</div>
+            <div class="text-body-sm text-on-surface-variant">Govt Recognized Institutional Supplier</div>
+          </div>
+        </div>
+      </div>
+      </div>
+    <div class="w-full py-16 px-6 lg:px-8 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+      <!-- Brand Info & Pedigree (Col 1) -->
+      <div class="space-y-4" data-aos="fade-up" data-aos-duration="900">
+        <div
+          class="text-headline-md font-headline-md font-black tracking-tight text-surface-container-lowest uppercase">
+          SKS AUTOMOTIVE
+        </div>
+        <p class="text-body-sm text-chrome-metallic leading-relaxed">
+          Sanatan Group's specialized commercial vehicle body manufacturing division. Authorized chassis body builder on
+          TATA Motors with integrated ABS vacuum thermoforming plants.
+        </p>
+        <div class="text-xs text-secondary-fixed">
+          <span class="font-bold">ARAI &amp; AIS-052 Certified Facility</span><br />
+          ISO 9001:2015 Quality Management
+        </div>
+      </div>
+      <!-- Quick Links (Col 2) -->
+      <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
+        <h4 class="text-white font-label-lg uppercase tracking-wider mb-4">
+          Products
+        </h4>
+        <ul class="space-y-2 text-body-sm">
+          <link><a class="text-chrome-metallic hover:text-on-primary transition-colors" href="#portfolio">TATA Route
+              Buses</a></li>
+          <li><a class="text-chrome-metallic hover:text-on-primary transition-colors" href="#portfolio">Staff &amp;
+              Luxury Coaches</a></li>
+          <li><a class="text-chrome-metallic hover:text-on-primary transition-colors" href="#portfolio">
+              School Buses</a></li>
+          <li><a class="text-chrome-metallic hover:text-on-primary transition-colors" href="#portfolio">TATA Winger
+              Ambulances</a></li>
+          <li><a class="text-chrome-metallic hover:text-on-primary transition-colors" href="#portfolio">ALS Mobile
+              Intensive care</a></li>
+          <!-- <li><a class="text-chrome-metallic hover:text-on-primary transition-colors" href="#portfolio">Specialized
+              Police busesriers</a></li> -->
+        </ul>
+      </div>
+      <!-- Corporate & Factory Works (Col 3) -->
+      <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
+        <h4 class="text-white font-label-lg uppercase tracking-wider mb-4">
+          Plant &amp; Works Location
+        </h4>
+        <p class="text-body-sm text-chrome-metallic leading-relaxed mb-3">
+          <strong class="text-white">Indore Works:</strong><br />
+          SKS Automotive Pvt Ltd (Sanatan Group)<br />
+          Village Jakhya, Sanwer Road Industrial Area,<br />
+          Indore - 453555, Madhya Pradesh, India.
+        </p>
+        <p class="text-body-sm text-chrome-metallic">
+          <strong class="text-white">TATA Motors Synergy Desk:</strong><br />
+          Dedicated Chassis Inward Bay 1 &amp; 2
+        </p>
+      </div>
+      <!-- Contact & Communication (Col 4) -->
+      <div data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">
+        <h4 class="text-white font-label-lg uppercase tracking-wider mb-4">
+          Contact / RFQ
+        </h4>
+        <ul class="space-y-3 text-body-sm">
+          <li class="flex items-center gap-2 text-chrome-metallic">
+            <span class="material-symbols-outlined text-secondary-fixed text-base" data-icon="call">call</span>
+            <span class="text-white font-medium">+91 92018 37575</span>
+          </li>
+          <li class="flex items-center gap-2 text-chrome-metallic">
+            <span class="material-symbols-outlined text-secondary-fixed text-base" data-icon="call">call</span>
+            <span class="text-white font-medium">+91 92435 61550</span>
+          </li>
+          <li class="flex items-center gap-2 text-chrome-metallic">
+            <span class="material-symbols-outlined text-secondary-fixed text-base" data-icon="mail">mail</span>
+            <a class="hover:underline" href="mailto:sales.skssanatan@gmail.com">sales.skssanatan@gmail.com</a>
+          </li>
+          <li class="flex items-center gap-2 text-chrome-metallic">
+            <span class="material-symbols-outlined text-secondary-fixed text-base" data-icon="mail">mail</span>
+            <a class="hover:underline" href="mailto:skscompany15@gmail.com">skscompany15@gmail.com</a>
+          </li>
+          <li class="pt-2">
+            <a class="inline-block px-4 py-2 bg-secondary text-white text-label-sm font-label-sm rounded uppercase hover:bg-black-600 transition-colors"
+              href="#rfq-section">
+              Submit Tender / RFQ
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Copyright Sub-strip -->
+    <div class="border-t border-subtle-border/10 py-6 text-center text-xs text-chrome-metallic px-6">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+        <span>© 2026 SKS Automotive Pvt Ltd (Sanatan Group). All Rights Reserved. ISO 9001:2015 &amp; ARAI Certified
+          Body Builder.</span>
+        <div class="flex gap-4">
+          <!-- <a class="hover:underline" href="#">AIS-052 Compliance</a>
+          <span>•</span> -->
+          <a class="hover:underline" href="#">Privacy Policy</a>
+          <span>•</span>
+          <a class="hover:underline" href="#">Terms of Supply</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  
+  <script>
+    // Initialize AOS Animation Engine
+    AOS.init({
+      duration: 800,
+      easing: 'ease-out-cubic',
+      once: true,
+      delay: 0, // values from 0 to 3000, with step 50ms
+      offset: 100
+    });
+  </script>
+
+</body>
+
+</html>
